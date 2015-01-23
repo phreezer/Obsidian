@@ -12,6 +12,12 @@
 .CodeMirror-focused .CodeMirror-activeline .inline-widget {
   color: #e0e2e4;
 }
+.CodeMirror-activeline-background {
+    background: rgba(255,255,255,.1);
+}
+.CodeMirror-activeline .CodeMirror-linenumber {
+    background: rgba(255,255,255,.15);
+}
 /* Obsidian Colours */
 .cm-atom {
   color: #93c763;
@@ -91,7 +97,7 @@
 }
 /* Extra CSS */
 .CodeMirror-searching {
-  background-color: #616161;
+  background-color: rgba(255,241,15,.6); /*#616161;*/
 }
 .CodeMirror-cursor {
   border-left: 1px solid #e0e2e4 !important;
